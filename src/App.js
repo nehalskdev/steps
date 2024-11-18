@@ -8,8 +8,12 @@ export default function App() {
       </div>
       <p className="message">Hello</p>
       <div className="buttons">
-        <button>Prev</button>
-        <button>Next</button>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
+          Prev
+        </button>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
+          Next
+        </button>
       </div>
     </div>
   );
